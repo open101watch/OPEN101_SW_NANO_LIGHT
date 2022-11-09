@@ -22,3 +22,9 @@ Sensors:
   
   
   
+---
+### Contributors
+
+<a href = "https://github.com/open101watch/OPEN101_SW_NANO_LIGHT/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = open101watch/OPEN101_SW_NANO_LIGHT"/>
+</a>
