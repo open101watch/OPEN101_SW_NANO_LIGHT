@@ -18,7 +18,7 @@ Drivers:
   
   
 Sensors:
-  NONE [Can be used with Additional Devices for Sensor support]
+  1. NONE [Can be used with Additional Devices for Sensor support]
   
   
   
