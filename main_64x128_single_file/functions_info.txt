@@ -1,0 +1,7 @@
+Anim_<id> --> Animation
+SS -> Splash Screen
+C_SS_<id> --> Charging Splash Screen
+N_SS_<id> --> Notification Splash Screen
+A_SS_<id> --> Alarm Splash Screen
+D_WF_<id> --> Digital Watch Face
+A_WF_<id> --> Analog Watch Face
