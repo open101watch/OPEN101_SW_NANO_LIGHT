@@ -3,6 +3,8 @@
 **Author & Developer :** <a href="https://github.com/Arijit-Bhowmick">ARIJIT BHOWMICK</a> [<a href="https://github.com/sys41x4">sys41x4</a>]
 ---
 *Desc:* Smart Watch based on RTC enabled esp8266 chipset with 64x128px OLED display powering up with 3.7v of Li-Po Battery
+
+** Currently Under Development **
 ---
 Hardware Config:
   1. Chipset : ESP8266
