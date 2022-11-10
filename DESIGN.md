@@ -11,21 +11,29 @@ FIRMWARE : OPEN101 SW NANO LIGHT
 
 ```
 
----------------
-| BOOT LOADER |
-----------------------------
-| ADDITIONAL SPLASH SCREEN |
-----------------------------
-| WATCH FACE |
----------------
-| HOME SCREEN |
------------------
-| APP EXECUTION |
----------------
-| APP LISTING |
----------------
+--- SCREEN/LAYER Layout ---
+
+TOP-->BOTTOM Execution Layer
+
+                                 TOP
+----------------------------     ||
+|       BOOT LOADER        |     ||
+----------------------------     ||
+| ADDITIONAL SPLASH SCREEN |     ||
+----------------------------     ||
+|        WATCH FACE        |     ||
+----------------------------     ||
+|       HOME SCREEN        |     ||
+----------------------------     ||
+|      APP EXECUTION       |     ||
+----------------------------     ||
+|       APP LISTING        |     ||
+----------------------------     \/
+                                BOTTOM
 
 --- DIFFERENTIATED BY SCREENS ---
+
+TOP ----------------------<........>---------------------------- BOTTOM
 
 ------------      ------------      ------------            ------------
 | SCREEN 0 | <--> | SCREEN 1 | <--> | SCREEN 2 | <<------>> | SCREEN X |
@@ -58,9 +66,13 @@ FIRMWARE : OPEN101 SW NANO LIGHT
 | SCREEN 5 | --> APPLICATION LISTING [POWER + MENU]
 ------------
 
+```
 
+---
 
---- MENU LISTING ---
+```
+
+--- APPLICATION LISTING ---
 
 POWER
  |-SHUTDOWN
@@ -70,15 +82,15 @@ POWER
 
 MENU
  |-SETTINGS
- |	|-WATCH INFO
- |	|   |-CPU
+ |  |-WATCH INFO
+ |  |   |-CPU
  |  |   |-FIRMWARE
  |  |   |-STORAGE
  |  |   |-MEMORY
  |  |   |-BATTERY
  |  |   |-LEGAL INFO
- |  |  
- |	|-DISPLAY
+ |  |
+ |  |-DISPLAY
  |  |   |-RESOLUTION
  |  |   |-COLOR TYPE
  |  |   |-OTHERS
@@ -99,12 +111,12 @@ MENU
  |      |-POPUP
  |      |-CHARGING
  |      |-RESET
- |  
+ |
  |-WATCH FACE
- |	|-ANALOG
- |	|-DIGITAL
- |	|-DUAL
- |	|-CREATIVE
+ |  |-ANALOG
+ |  |-DIGITAL
+ |  |-DUAL
+ |  |-CREATIVE
  |
  |-CALENDER
  |-STOPWATCH
@@ -112,6 +124,37 @@ MENU
  |-CALCULATOR
  |-GAMES
 
+```
+
+---
+
+```
+--- BUTTONS ---
+
+BTN0    BTN1
+
+BTN3    BTN2
+
+-> BTN-ALLIGNMENT
+
+    0: TOP LEFT
+    1: TOP RIGHT
+    2: BOTTOM RIGHT
+    3: BOTTOM LEFT
+
+-> BTN-CLICK SUPPORT
+
+    All Buttons are Multifunctional supporting
+    0. None
+    1. Single Click
+    2. Double Click
+    3. Tripple Click
+    4. Quadruple Click
+    5. Hold
+    6. Single Click and Hold
+
+    BTN(0,1,2,3,...n) => All are Multi Functional Keys
+        Supporting assignment of mult Functions & Feedbacks
 
 
 ----------
@@ -122,4 +165,4 @@ MORE TO GO
 
 
 ---
-### OPEN101 SW NANO LIGHT
+### OPEN101 SW NANO LIGHT DESIGN
