@@ -23,6 +23,9 @@
 </p>
 
 
+<p align="center"><img src="/assets/icons/logo.png" alt="OPEN101_SW_NANO_LIGHT png" /></p>
+
+
 <p align="center">
     <a href="https://github.com/open101watch/OPEN101_SW_NANO_LIGHT/issues/new/choose">Report Bug</a>
     ·
