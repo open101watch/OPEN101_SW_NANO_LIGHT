@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://github.com/open101watch/OPEN101_SW_NANO_LIGHT">
+    <img alt="OPEN101 SW NANO LIGHT" src=https://avatars.githubusercontent.com/u/116282345?v=4 width="200" />
+  </a>
+</p>
 <h1 align="center">
   OPEN101 SW NANO LIGHT
 </h1>
